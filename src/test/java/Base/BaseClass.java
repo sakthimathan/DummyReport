@@ -23,6 +23,7 @@ public class BaseClass {
 		File src = ts.getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src, new File(desty));
 		return desty;
+		System.out.println("hi");
 	}
 
 }
